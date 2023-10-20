@@ -1,0 +1,123 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    height: 100vh;
+}
+
+.cabecalho {
+    padding: 0% 0% 0% 0%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap:80px;
+    background-color: #DB2270;
+    padding: 2%;
+    justify-content: center;
+}
+
+.cabecalho__link {
+    display: flex;
+    justify-content: center ;
+    font-family: 'Montserrar', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color:white;
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 8%;
+    width: 100px;
+}
+
+.cabecalho__link:hover {
+    background-color: #cf5085;
+}
+
+.apresentacao {
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.apresentacao__conteudo {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao__titulo {
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.titulo_destaque {
+    color:#DB2270
+}
+
+.apresentacao__paragrafo {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.apresentacao__link {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap:32px;
+}
+
+.apresentacao__link_subtitulo {
+    font-family: 'Krona one', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.apresentacao__linkExterno {
+    display: flex;
+    justify-content: center;
+    gap:16px;
+    width: 378px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    border: 2px solid #DB2270
+    
+}
+
+.apresentacao__linkExterno:hover {
+    background-color: #272727;
+}
+
+.titulo_destaque:hover {
+    background-color: #DB2270;
+    color: #272727;
+}
+
+.rodape {
+    padding: 24px;
+    background-color: #DB2270;
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+    
