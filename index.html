@@ -7,18 +7,27 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header></header>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__link">Home</a>
+            <a class="cabecalho__link">Sobre mim</a>
+            <a class="cabecalho__link">Projetos</a>
+        </nav>
+    </header>
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
             <h1 class="apresentacao__titulo">Sejá bem vindo ao <strong class = "titulo_destaque"> meu primeiro projeto Front-End!</strong></h1>
-            <p class="apresentacao__paragrafo">Olá! Sou Pedro Otávio, estudande de ciência da computação e apaixonado por técnologia. Venho desenvolvendo minhas habilidade em <strong>JavaScript, HTML5 e CSS</strong> atraves de cursos na Alura além do Bacharelo. </p>
-            <div class="apresentacao__link">
-                <a class="apresentacao__linkExterno" href="https://www.linkedin.com/in/pedro-ot%C3%A1vio-9408a61b0/">Linkedin</a>
-                <a class="apresentacao__linkExterno" href="https://github.com/pedropedroo">GitHub</a>
+            <p class="apresentacao__paragrafo">Olá! Sou Pedro Otávio, estudande de ciência da computação e apaixonado por técnologia. Venho desenvolvendo minhas habilidade em <strong class="titulo_destaque">JavaScript, HTML5 e CSS</strong> atraves de cursos na Alura além do Bacharelo. </p>
+            <div class="apresentacao__link">              
+                <h2 class="apresentacao__link_subtitulo">Acesse minhas redes:</h2>
+                <a class="apresentacao__linkExterno" href="https://www.linkedin.com/in/pedro-ot%C3%A1vio-9408a61b0/"><img src="./assets/linkedin.png" alt="imagem linkedin">Linkedin </a>
+                <a class="apresentacao__linkExterno" href="https://github.com/pedropedroo"><img src="./assets/github.png" alt="imagem github">GitHub</a>
             </div>
         </section>
-        <img src="image.png" alt="imagem da pagina">
+        
     </main>
-    <footer></footer>
+    <footer>
+        <p class="rodape">Desenvolvido por Pedro</p>
+    </footer>
 </body>
 </html>
